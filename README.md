@@ -62,7 +62,6 @@ Amazon Developer SKILL: (Inicia secion con el mismo correo de amazon)
 - Introduce la **Clave de seguridad** (la `ADMIN_PASSWORD` que configuraste en Vercel).
 - Haz clic en **Conectar y guardar**. (Deberia desaparecer el offline rojo y ponerse en verde `Secure Listening Active`)
 - El agente se minimizará a la **Bandeja del sistema**. Haz clic con el botón derecho en el icono X de salir.
----
 
 #### 5. Activacion de SKILL en APP Alexa
 - Abres la aplicacion de Alexa > te diriges abajo a las 3 rayas
@@ -70,6 +69,8 @@ Amazon Developer SKILL: (Inicia secion con el mismo correo de amazon)
 - Te saldran las Activas, Blueprint y Desarrolador
 - Ve a desarrolador y encontraras tu Skill
 - Abrela y activala (deberia Vincularce exitosamente y luego buscar el dispositivo)
+---
+
 
 ### 🗣️ Uso
 1. Abre tu panel de control de Vercel, inicia sesión con tu contraseña y añade el nombre y la dirección MAC de tu PC.
