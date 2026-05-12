@@ -33,8 +33,8 @@ Crea un nuevo proyecto en [Vercel](https://vercel.com) y conecta tu repositorio 
 - Despliega el proyecto. Copia tu URL de despliegue (por ejemplo, `https://your-app.vercel.app`).
 
 #### 3. Integración de Alexa y AWS Lambda
-Primero AWS Lambda: (Inicia secion con tu correo de amazon)
-Alexa necesita un "puente" para comunicarse con Vercel.
+Primero AWS Lambda: (Inicia secion con tu correo de amazon).
+- Alexa necesita un "puente" para comunicarse con Vercel.
 - **AWS Lambda**: Crea una nueva función (Entorno de ejecución: Node.js 18+ ... En mi caso fue NODE.JS 24.x)
 -Revisa que el Index termine en .JS y no .MJS
 Copia el código de `/bridge/lambda_bridge.js` en este repositorio y pégalo en el editor de Lambda.
@@ -47,8 +47,8 @@ Amazon Developer SKILL: (Inicia secion con el mismo correo de amazon)
 - URI de autorización: `https://tu-aplicación.vercel.app/api/auth`
 - URI del token de acceso: `https://tu-aplicación.vercel.app/api/token`
 - ID de cliente: `cualquier cosa` (no está marcado en esta configuración privada).
-- Secreto de cliente: `cualquiera cosa`
-Extras propios:
+- Secreto de cliente: `cualquiera cosa`.
+- **Extras propios**:
 - Scope*: `profile`
 - Domain List: `tu-aplicación.vercel.app`
 - Default Access Token Expiration Time: `3600`
